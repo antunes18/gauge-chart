@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gauge chart using Chart.js</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+    <title>Gauge Chart</title>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <div style="width:300px; height: 300px;">
-        <canvas id="chat" style="position: absolute; z-index: 0;"></canvas>
-        <canvas id="gauge_meter" style="position: absolute; z-index: 1;"></canvas>
-    </div>
+    <body>
+        <header>
+            <h1 style="text-align: center;">Sales' Target Chart</h1>
+        </header>
+        <div id='myChart'></div>
+    </body>
+    <script src="gauge-chart.js"></script>
 </body>
 </html>
